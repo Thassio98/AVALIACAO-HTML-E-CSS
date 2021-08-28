@@ -1,0 +1,58 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+html { 
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;}
+
+#esquerda{ 
+color: #19304f;}
+
+article { 
+background-color: #19304f;
+width: 40%;
+color: #ffffff;
+padding: 20px;}
+
+#Container {
+    width: 60%;}
+
+#body {
+display: flex;
+margin: 0 auto;
+width: 80%;
+height: 100%;
+box-shadow: 2px 0 2em #888;}
+
+img { 
+border-radius: 50%; margin: 11px;
+margin: 6px;
+top: 60px;
+left: 85px;}
+
+#perfil {
+flex-direction:row;
+margin-top: -85px;
+margin-left: 145px;
+margin-bottom: 20px;
+color: #19304f;}
+
+#conhecimentos {
+margin-top: 55px;
+margin-right: 50px;
+margin-bottom: 80px;}
+
+ul { margin-left: 22px; }
+
+@media (max-width: 950px) {
+#body { width: 100%; }    
+ }
+
+@media (max-width: 740px) {
+#body { display:block;} 
+article { width: 100%; }  
+}
+
+
